@@ -28,7 +28,7 @@ def search():
 dns = {}
 print("Building the first DNS dictionary")
 print("Enter 5 url's and ip's")
-for i in range (2):
+for i in range (5):
     a = input("Enter url : ")
     b = input("Enter ip :")
     dns.update({a: b})
